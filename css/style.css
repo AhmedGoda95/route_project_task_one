@@ -1,0 +1,27 @@
+
+.container{
+    text-align: center;
+    border-radius: 25%
+}
+
+.box-head h1{
+      font-size: 50px;
+      font-weight: 600;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+      
+}
+.box-head p{
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.box-head button{
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.box-head button:hover{
+    background-color: tomato;
+}
