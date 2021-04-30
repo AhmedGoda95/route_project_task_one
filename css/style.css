@@ -228,6 +228,94 @@ margin-top: 15px;
 
 /* End Section Services */
 
+/* start section portfolio */
+
+.about-content h2
+{
+    font-size:50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3b434a23;
+    font-family: "Raleway", sans-serif;
+}
+.about-content h3
+{
+    color: #3b434a;
+    font-size: 32px;
+    font-weight: 700;
+}
+.prag
+{
+    color: #3b434ae8;
+
+}
+
+.star 
+{
+    border: solid 2px #f3a200;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #f3a200;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.portfolio-icon
+{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+}
+.star1:hover
+{
+    color: #f3a200;
+    border-color: #f3a200;
+
+    transition: all 0.2s 0.1s;
+}
+.star1
+{
+    padding: 5px 0;
+    border: 2px solid transparent;
+}
+.star-two:hover
+{
+    color: #f3a200;
+    border: solid 2px #f3a200;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.2s 0.1s;
+}
+.star-three:hover
+{
+    color: #f3a200;
+    border: solid 2px #f3a200;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.2s 0.1s;
+}
+
+
+.sercle
+{
+    position: relative;
+}
+.sercle::after
+{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: solid 1px black;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+
+/* end section portfolio */ 
+
 /*  Start contact */
 .contact-title
 {
